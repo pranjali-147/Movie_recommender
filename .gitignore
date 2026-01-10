@@ -1,0 +1,16 @@
+
+# Python cache / temp
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+
+# Model & pickle files
+model/*.pkl
+
+
+# Datasets (CSV files)
+*.csv
+
+# Jupyter notebooks outputs
+*.ipynb_checkpoints

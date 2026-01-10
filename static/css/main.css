@@ -1,0 +1,40 @@
+body {
+  background-color: #141414;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.navbar-brand {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.movie-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.movie-card img:hover {
+  transform: scale(1.08);
+}
+
+.movie-title {
+  text-align: center;
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+#searchType{
+  width: 200px;
+}
+
+#movieInput{
+  width: 500px;
+}

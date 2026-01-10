@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Movie Recommendation System</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/index.css') }}"
+    />
+  </head>
+
+  <body>
+    <div class="container-box">
+      <div class="title">
+        <span class="material-icons">movie</span>
+        Movie Recommendation System
+      </div>
+
+      <div class="subtitle">
+        Discover movies you'll love — Bollywood & Hollywood
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-6">
+          <a href="/hollywood" class="card-btn d-block">
+            <span class="material-icons">theaters</span>
+            <h4>Hollywood</h4>
+            <p class="mb-0">Explore Hollywood movies</p>
+          </a>
+        </div>
+
+        <div class="col-md-6">
+          <a href="/bollywood" class="card-btn d-block">
+            <span class="material-icons">local_movies</span>
+            <h4>Bollywood</h4>
+            <p class="mb-0">Discover Bollywood cinema</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
